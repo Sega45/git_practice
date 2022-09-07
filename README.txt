@@ -1,5 +1,5 @@
 Hello Git and Github
 
-#What is Markdown?
+# What is Markdown?
 **List of tips**
-*one asterisk
+* one asterisk
