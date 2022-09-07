@@ -5,7 +5,7 @@ const messageAquarius = 'Experiment beyond your everyday routine so you cross pa
 const messageCapricorn = 'As the moon in your resourceful second house clicks with clever Mercury in your ambitious tenth house, keep moving in the right direction, inch by inch, and you’ll get to the goal line faster than you expect.';
 
 const chooseSign = () => {
-    const number = Math.floor(Math.random() * 2);
+    const number = Math.floor(Math.random() * 3);
     switch(number) {
         case 0:
             console.log(`Your sign is ${signs[0]}. Your prognose for today: ${messagePisces}`);
