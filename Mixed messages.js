@@ -18,3 +18,4 @@ const chooseSign = () => {
             break;
     }
 };
+chooseSign();
