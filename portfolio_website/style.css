@@ -1,0 +1,52 @@
+body{
+    padding: 0 16px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navigation-items{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    margin-left: auto;
+    padding: 0;
+    align-items: center;
+}
+
+.navigation-item{
+    margin: 8px;
+}
+
+main{
+    font-family: 'Merriweather', serif;
+}
+
+h2{
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+section{
+    padding: 16px 0;
+}
+
+.about-me-container{
+    display: flex;
+}
+
+.about-me-text-container{
+    margin-right: 16px;
+}
