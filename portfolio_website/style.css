@@ -50,3 +50,82 @@ section{
 .about-me-text-container{
     margin-right: 16px;
 }
+
+.photo{
+    width: 300px;
+    border-radius: 12px;
+}
+
+details{
+    cursor: pointer;
+    display: inline;
+}
+
+details > summary{
+    list-style: none;
+}
+
+.project-title h3{
+    display: inline;
+}
+
+ul{
+    padding-inline-start: 0px;
+}
+
+li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: inherit;
+}
+
+#projects li::before{
+    content: "\2794";
+    left: -20px;
+    color: red;
+}
+
+#skills-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#skills-container > * {
+    font-size: 2em;
+    width: 2em;
+    margin-top: 8px;
+}
+
+.fab{
+    font-weight: 400;
+    font-family: "Font Awesome 5 Brands";
+}
+
+.fa-html5::before{
+    content: "\f13b";
+}
+
+footer{
+    margin-top: auto;
+    padding: 12px 0;
+    text-align: center;
+}
+
+.red{
+    color: red;
+}
+
+.bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.icon{
+    font-size: 2em;
+    margin: 8px 8px;
+}
